@@ -12,3 +12,5 @@ O projeto visa a compreensão e facilitar o desenvolvimento de cálculos matemá
 # Orientador: 
 
 Daniel Fireman
+
+Modificando Readme
