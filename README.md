@@ -13,4 +13,3 @@ O projeto visa a compreensão e facilitar o desenvolvimento de cálculos matemá
 
 Daniel Fireman
 
-outra mudança. última talvez
