@@ -13,4 +13,4 @@ O projeto visa a compreensão e facilitar o desenvolvimento de cálculos matemá
 
 Daniel Fireman
 
-* Alterando README.md ;)
+### Alterações
