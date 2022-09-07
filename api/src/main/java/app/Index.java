@@ -2,12 +2,11 @@ package app;
 
 import io.jooby.annotations.*;
 
-@Path("/index")
+@Path("/")
 public class Index {
 
   @GET
-  @Path("/")
   public String index() {
-    return "Bem-vindos/as a API calculadora";
+    return "Bem-vindxs a API calculadora";
   }
 }
