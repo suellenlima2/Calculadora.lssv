@@ -7,6 +7,6 @@ public class Index {
 
   @GET
   public String index() {
-    return "Bem-vindos/as a API calculadora";
+    return "Bem-vindxs a API calculadora";
   }
 }
