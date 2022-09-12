@@ -14,7 +14,7 @@ public class Divisao {
             double op2 = Double.parseDouble(op2Str);
             double resultado = 0;
             if (op2 == 0) {
-                throw new BadRequestException("A calculadora só realizar divisoes por 0.");    
+                throw new BadRequestException("A calculadora só realizará divisões por 0.");    
             } else{
                  resultado = op1 / op2 ; 
             }
