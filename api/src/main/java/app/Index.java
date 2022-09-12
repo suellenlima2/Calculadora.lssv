@@ -7,6 +7,7 @@ public class Index {
 
   @GET
   public String index() {
+    return("Bem vindos a API calculadora!");
 
   }
 }
