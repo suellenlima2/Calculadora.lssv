@@ -11,6 +11,9 @@ public class Subtracao {
         try {
             double op = Double.parseDouble(opStr);
             double op2 = Double.parseDouble(op2Str);
+            if (op < 0) {
+                throw new BadRequestException("A calculadora só opera nos reais. Não funciono com números imaginários.");    
+            }
             double a = op - op2;
             return a;
         } catch (NumberFormatException nfe) {
