@@ -11,10 +11,10 @@ public class Adicao {
         try {
             double op1 = Double.parseDouble(op1Str);
             double op2 = Double.parseDouble(op2Str);
-            
             return(op1 + op2);
+
         } catch (NumberFormatException nfe) {
-            throw new BadRequestException("Operador inválido.");
+            throw new BadRequestException("Operador não é válido");
         }
     }
 }
